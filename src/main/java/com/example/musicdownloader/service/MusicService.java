@@ -18,7 +18,7 @@ import java.util.regex.Pattern;
 public class MusicService {
     private final TelegramAPIClient telegramClient;
     private final MusicApiClient client;
-    private final String host = "youtube-mp36.p.rapidapi.com";
+    private final String host = "YOUR_HOST";
     private final String key = "YOUR_API_KEY";
     private Long lastUpdateId = 0L;
 
